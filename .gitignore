@@ -1,4 +1,14 @@
 #################
+## HybridPi
+#################
+
+# SketchUp Backups
+*.skb
+
+# Eagle Backups
+*.l#*
+
+#################
 ## Eclipse
 #################
 
