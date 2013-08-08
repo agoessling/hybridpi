@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -923,6 +923,71 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="0" y1="2.5" x2="0" y2="2" width="0.2032" layer="21"/>
 <text x="0" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1" y="-9" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<circle x="12" y="2" radius="0.1" width="0.2032" layer="21"/>
+</package>
+<package name="128240D">
+<smd name="19" x="0.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="20" x="0.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="21" x="1.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="22" x="1.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="23" x="2.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="24" x="2.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="25" x="3.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="26" x="3.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="27" x="4.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="28" x="4.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="29" x="5.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="30" x="5.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="31" x="6.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="32" x="6.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="33" x="7.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="34" x="7.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="35" x="8.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="36" x="8.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="1" x="-8.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="2" x="-8.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="3" x="-7.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="4" x="-7.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="5" x="-6.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="6" x="-6.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="7" x="-5.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="8" x="-5.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="9" x="-4.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="10" x="-4.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="11" x="-3.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="12" x="-3.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="13" x="-2.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="14" x="-2.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="15" x="-1.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="16" x="-1.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="17" x="-0.75" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="18" x="-0.25" y="0" dx="0.3" dy="1.25" layer="1" roundness="100"/>
+<smd name="SHIELD2" x="10.6" y="-2.375" dx="1.8" dy="1.5" layer="1" roundness="40"/>
+<smd name="SHIELD1" x="-10.6" y="-2.375" dx="1.8" dy="1.5" layer="1" roundness="40"/>
+<wire x1="-11.75" y1="-3.6" x2="-11.75" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="-11.75" y1="-4.6" x2="11.75" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="11.75" y1="-4.6" x2="11.75" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="11.75" y1="-3.6" x2="11" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="11" y1="-3.6" x2="11" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="11" y1="-0.4" x2="9" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="9" y1="-0.4" x2="9" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="9" y1="-0.9" x2="-9" y2="-0.9" width="0.2032" layer="51"/>
+<wire x1="-9" y1="-0.9" x2="-9" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="-9" y1="-0.4" x2="-11" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="-11" y1="-0.4" x2="-11" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="-11" y1="-3.6" x2="-11.75" y2="-3.6" width="0.2032" layer="51"/>
+<wire x1="-11" y1="-3.6" x2="-11.7" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-11.7" y1="-3.6" x2="-11.7" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-11.7" y1="-4.6" x2="11.7" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="11.7" y1="-4.6" x2="11.7" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="11.7" y1="-3.6" x2="11" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="11" y1="-1.3" x2="11" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="11" y1="-0.4" x2="9.3" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="-9.3" y1="-0.4" x2="-11" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="-11" y1="-0.4" x2="-11" y2="-1.3" width="0.2032" layer="21"/>
+<circle x="-9.4" y="0.2" radius="0.1" width="0.2032" layer="21"/>
+<text x="-12" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="4" y="1" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -986,46 +1051,47 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="SHIELD" x="7.62" y="-15.24" visible="pin" length="short" rot="R180"/>
 </symbol>
 <symbol name="128240D">
-<pin name="A0" x="-27.94" y="25.4" length="short" rot="R180"/>
-<pin name="RW/WR" x="-27.94" y="22.86" length="short" rot="R180"/>
-<pin name="D0" x="-27.94" y="20.32" length="short" rot="R180"/>
-<pin name="D1" x="-27.94" y="17.78" length="short" rot="R180"/>
-<pin name="D2" x="-27.94" y="15.24" length="short" rot="R180"/>
-<pin name="D3" x="-27.94" y="12.7" length="short" rot="R180"/>
-<pin name="D4" x="-27.94" y="10.16" length="short" rot="R180"/>
-<pin name="D5" x="-27.94" y="7.62" length="short" rot="R180"/>
-<pin name="D6" x="-27.94" y="5.08" length="short" rot="R180"/>
-<pin name="D7" x="-27.94" y="2.54" length="short" rot="R180"/>
-<pin name="E_RD" x="-27.94" y="0" length="short" rot="R180"/>
-<pin name="RST" x="-27.94" y="-2.54" length="short" rot="R180"/>
-<pin name="IF1" x="-27.94" y="-5.08" length="short" rot="R180"/>
-<pin name="IF2" x="-27.94" y="-7.62" length="short" rot="R180"/>
-<pin name="IF3" x="-27.94" y="-10.16" length="short" rot="R180"/>
-<pin name="SI" x="-27.94" y="-12.7" length="short" rot="R180"/>
-<pin name="SCL" x="-27.94" y="-15.24" length="short" rot="R180"/>
-<pin name="XCS" x="-27.94" y="-17.78" length="short" rot="R180"/>
-<pin name="VSS" x="-27.94" y="-20.32" length="short" rot="R180"/>
-<pin name="VDD" x="-27.94" y="-22.86" length="short" rot="R180"/>
-<pin name="C7P" x="-27.94" y="-25.4" length="short" rot="R180"/>
-<pin name="C5P" x="-27.94" y="-27.94" length="short" rot="R180"/>
-<pin name="C3P" x="-27.94" y="-30.48" length="short" rot="R180"/>
-<pin name="C1N" x="-27.94" y="-33.02" length="short" rot="R180"/>
-<pin name="C1P" x="-27.94" y="-35.56" length="short" rot="R180"/>
-<pin name="C2P" x="-27.94" y="-38.1" length="short" rot="R180"/>
-<pin name="C2N" x="-27.94" y="-40.64" length="short" rot="R180"/>
-<pin name="C4N" x="-27.94" y="-43.18" length="short" rot="R180"/>
-<pin name="C4P" x="-27.94" y="-45.72" length="short" rot="R180"/>
-<pin name="C6P" x="-27.94" y="-48.26" length="short" rot="R180"/>
-<pin name="VLCD" x="-27.94" y="-50.8" length="short" rot="R180"/>
-<pin name="V4" x="-27.94" y="-53.34" length="short" rot="R180"/>
-<pin name="V3" x="-27.94" y="-55.88" length="short" rot="R180"/>
-<pin name="V2" x="-27.94" y="-58.42" length="short" rot="R180"/>
-<pin name="V1" x="-27.94" y="-60.96" length="short" rot="R180"/>
-<pin name="V0IN" x="-27.94" y="-63.5" length="short" rot="R180"/>
-<wire x1="-45.72" y1="27.94" x2="-30.48" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="27.94" x2="-30.48" y2="-66.04" width="0.254" layer="94"/>
-<wire x1="-30.48" y1="-66.04" x2="-45.72" y2="-66.04" width="0.254" layer="94"/>
-<text x="-39.37" y="-22.86" size="5.08" layer="94" rot="R90">LCD</text>
+<pin name="A0" x="2.54" y="40.64" length="short" rot="R180"/>
+<pin name="RW/WR" x="2.54" y="38.1" length="short" rot="R180"/>
+<pin name="D0" x="2.54" y="35.56" length="short" rot="R180"/>
+<pin name="D1" x="2.54" y="33.02" length="short" rot="R180"/>
+<pin name="D2" x="2.54" y="30.48" length="short" rot="R180"/>
+<pin name="D3" x="2.54" y="27.94" length="short" rot="R180"/>
+<pin name="D4" x="2.54" y="25.4" length="short" rot="R180"/>
+<pin name="D5" x="2.54" y="22.86" length="short" rot="R180"/>
+<pin name="D6" x="2.54" y="20.32" length="short" rot="R180"/>
+<pin name="D7" x="2.54" y="17.78" length="short" rot="R180"/>
+<pin name="E_RD" x="2.54" y="15.24" length="short" rot="R180"/>
+<pin name="RST" x="2.54" y="12.7" length="short" rot="R180"/>
+<pin name="IF1" x="2.54" y="10.16" length="short" rot="R180"/>
+<pin name="IF2" x="2.54" y="7.62" length="short" rot="R180"/>
+<pin name="IF3" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="SI" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="SCL" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="XCS" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="VSS" x="2.54" y="-5.08" length="short" rot="R180"/>
+<pin name="VDD" x="2.54" y="-7.62" length="short" rot="R180"/>
+<pin name="C7P" x="2.54" y="-10.16" length="short" rot="R180"/>
+<pin name="C5P" x="2.54" y="-12.7" length="short" rot="R180"/>
+<pin name="C3P" x="2.54" y="-15.24" length="short" rot="R180"/>
+<pin name="C1N" x="2.54" y="-17.78" length="short" rot="R180"/>
+<pin name="C1P" x="2.54" y="-20.32" length="short" rot="R180"/>
+<pin name="C2P" x="2.54" y="-22.86" length="short" rot="R180"/>
+<pin name="C2N" x="2.54" y="-25.4" length="short" rot="R180"/>
+<pin name="V0OUT" x="2.54" y="-45.72" length="short" rot="R180"/>
+<pin name="C4P" x="2.54" y="-27.94" length="short" rot="R180"/>
+<pin name="C6P" x="2.54" y="-30.48" length="short" rot="R180"/>
+<pin name="VLCD" x="2.54" y="-33.02" length="short" rot="R180"/>
+<pin name="V4" x="2.54" y="-35.56" length="short" rot="R180"/>
+<pin name="V3" x="2.54" y="-38.1" length="short" rot="R180"/>
+<pin name="V2" x="2.54" y="-40.64" length="short" rot="R180"/>
+<pin name="V1" x="2.54" y="-43.18" length="short" rot="R180"/>
+<pin name="V0IN" x="2.54" y="-48.26" length="short" rot="R180"/>
+<wire x1="-15.24" y1="43.18" x2="0" y2="43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="43.18" x2="0" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="0" y1="-55.88" x2="-15.24" y2="-55.88" width="0.254" layer="94"/>
+<text x="-8.89" y="-7.62" size="5.08" layer="94" rot="R90">LCD</text>
+<pin name="SHIELD" x="2.54" y="-53.34" visible="pin" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1467,6 +1533,57 @@ Standard 4-pin header.</description>
 <connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2 SHIELD3 SHIELD4 SHIELD5"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 <connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="128240D">
+<gates>
+<gate name="G$1" symbol="128240D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="128240D">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="C1N" pad="24"/>
+<connect gate="G$1" pin="C1P" pad="25"/>
+<connect gate="G$1" pin="C2N" pad="27"/>
+<connect gate="G$1" pin="C2P" pad="26"/>
+<connect gate="G$1" pin="C3P" pad="23"/>
+<connect gate="G$1" pin="C4P" pad="28"/>
+<connect gate="G$1" pin="C5P" pad="22"/>
+<connect gate="G$1" pin="C6P" pad="29"/>
+<connect gate="G$1" pin="C7P" pad="21"/>
+<connect gate="G$1" pin="D0" pad="3"/>
+<connect gate="G$1" pin="D1" pad="4"/>
+<connect gate="G$1" pin="D2" pad="5"/>
+<connect gate="G$1" pin="D3" pad="6"/>
+<connect gate="G$1" pin="D4" pad="7"/>
+<connect gate="G$1" pin="D5" pad="8"/>
+<connect gate="G$1" pin="D6" pad="9"/>
+<connect gate="G$1" pin="D7" pad="10"/>
+<connect gate="G$1" pin="E_RD" pad="11"/>
+<connect gate="G$1" pin="IF1" pad="13"/>
+<connect gate="G$1" pin="IF2" pad="14"/>
+<connect gate="G$1" pin="IF3" pad="15"/>
+<connect gate="G$1" pin="RST" pad="12"/>
+<connect gate="G$1" pin="RW/WR" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="17"/>
+<connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2"/>
+<connect gate="G$1" pin="SI" pad="16"/>
+<connect gate="G$1" pin="V0IN" pad="36"/>
+<connect gate="G$1" pin="V0OUT" pad="35"/>
+<connect gate="G$1" pin="V1" pad="34"/>
+<connect gate="G$1" pin="V2" pad="33"/>
+<connect gate="G$1" pin="V3" pad="32"/>
+<connect gate="G$1" pin="V4" pad="31"/>
+<connect gate="G$1" pin="VDD" pad="20"/>
+<connect gate="G$1" pin="VLCD" pad="30"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+<connect gate="G$1" pin="XCS" pad="18"/>
 </connects>
 <technologies>
 <technology name=""/>
