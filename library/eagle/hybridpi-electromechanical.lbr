@@ -419,7 +419,9 @@ SMT- SWCH-08247</description>
 <connect gate="S" pin="2" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="EAGLEUP" value="TACTILE-PTH-FSMRA7JH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
