@@ -164,7 +164,9 @@
 <connect gate="G$1" pin="WAKEUP" pad="30"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="EAGLEUP" value="UC530" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

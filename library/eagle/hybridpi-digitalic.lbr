@@ -275,7 +275,9 @@
 <connect gate="G$1" pin="VDDIO" pad="42 48"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="EAGLEUP" value="TQFP-48" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -284,7 +284,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <connect gate="G$1" pin="CR" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="EAGLEUP" value="LED-1p6x1p25" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

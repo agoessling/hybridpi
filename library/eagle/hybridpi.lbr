@@ -3264,7 +3264,9 @@ Texas Instruments
 <connect gate="G$1" pin="VSEL" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="EAGLEUP" value="WSON-12-3p1x3p1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
