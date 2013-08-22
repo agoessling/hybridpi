@@ -275,8 +275,10 @@
 <connect gate="G$1" pin="VDDIO" pad="42 48"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="EAGLEUP" value="TQFP-48" constant="no"/>
+<technology name="128">
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="ATUC128L4U-AUT-ND
+" constant="no"/>
 </technology>
 </technologies>
 </device>

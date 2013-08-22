@@ -146,6 +146,8 @@
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="BMP180" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="828-1027-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -173,6 +175,8 @@
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="DFN-10-2x2" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="MAG3110FCR1CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -2037,6 +2037,8 @@ Standard 4-pin header.</description>
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="JST-PH-2-RA" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="455-1719-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2067,6 +2069,8 @@ Standard 4-pin header.</description>
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="MICROSD-5031821853" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="WM9750CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
