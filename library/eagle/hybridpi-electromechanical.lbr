@@ -421,6 +421,8 @@ SMT- SWCH-08247</description>
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="TACTILE-PTH-FSMRA7JH" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="450-1661-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

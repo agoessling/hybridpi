@@ -166,6 +166,8 @@
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="UC530" constant="no"/>
+<attribute name="VENDOR" value="MOUSER" constant="no"/>
+<attribute name="VENDOR_PN" value="916-UC530" constant="no"/>
 </technology>
 </technologies>
 </device>

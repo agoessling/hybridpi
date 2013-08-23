@@ -3236,7 +3236,10 @@ Texas Instruments
 <connect gate="G$1" pin="VDPM" pad="23"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="296-36444-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3266,6 +3269,8 @@ Texas Instruments
 <technologies>
 <technology name="">
 <attribute name="EAGLEUP" value="WSON-12-3p1x3p1" constant="no"/>
+<attribute name="VENDOR" value="DIGI-KEY" constant="no"/>
+<attribute name="VENDOR_PN" value="LM3668SD-3034/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
